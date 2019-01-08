@@ -1,0 +1,37 @@
+.image-header {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-size: 100%;
+    background-image: url(./Images/1.jpeg);
+    background-repeat: no-repeat;
+    animation: slide 20s infinite;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 70px;
+    -webkit-text-stroke: 2px black;
+}
+
+@keyframes slide{
+    15% {
+        background-image: url(./Images/1.jpeg);
+    }
+    40% {
+        background-image: url(./Images/2.jpeg);
+    }
+    65% {
+        background-image: url(./Images/3.jpeg);
+    }
+    90% {
+        background-image: url(./Images/4.jpeg);
+    }
+    100% {
+        background-image: url(./Images/1.jpeg);
+    }
+}

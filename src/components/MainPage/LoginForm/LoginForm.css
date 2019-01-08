@@ -1,0 +1,19 @@
+.login-form {
+    padding-left: 25px;
+    border-left: 2px solid #333;
+    border-radius: 2px;
+}
+
+.btn-outline-primary {
+    color: #0071e0;
+    border-color: #0071e0;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0071e0;
+    border-color: #0071e0;
+}
+
+.sign-up {
+    margin-top: 100px;
+}
