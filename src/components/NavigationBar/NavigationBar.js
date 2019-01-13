@@ -28,13 +28,13 @@ class NavigationBar extends Component {
                     Products
                 </DropdownToggle>
                 <DropdownMenu right>
-                    <DropdownItem href="/Products/Product1">
+                    <DropdownItem href="/Products/#Product1">
                         Product 1
                     </DropdownItem>
-                    <DropdownItem href="/Products/Product2">
+                    <DropdownItem href="/Products/#Product2">
                         Product 2
                     </DropdownItem>
-                    <DropdownItem href="/Products/Product3">
+                    <DropdownItem href="/Products/#Product3">
                         Product 3
                     </DropdownItem>
                 </DropdownMenu>
@@ -45,10 +45,10 @@ class NavigationBar extends Component {
                     Pricing
                 </DropdownToggle>
                 <DropdownMenu right>
-                    <DropdownItem href="/Pricing/Pricing1">
+                    <DropdownItem href="/Pricing/#Pricing1">
                         Pricing 1
                     </DropdownItem>
-                    <DropdownItem href="/Pricing/Pricing2">
+                    <DropdownItem href="/Pricing/#Pricing2">
                         Pricing 2
                     </DropdownItem>
                 </DropdownMenu>
@@ -59,10 +59,10 @@ class NavigationBar extends Component {
                     Account
                 </DropdownToggle>
                 <DropdownMenu right>
-                    <DropdownItem href="/Account/Settings">
+                    <DropdownItem href="/Account/#Settings">
                         Settings
                     </DropdownItem>
-                    <DropdownItem href="/Account/Help">
+                    <DropdownItem href="/Account/#Help">
                         Help
                     </DropdownItem>
                 </DropdownMenu>
