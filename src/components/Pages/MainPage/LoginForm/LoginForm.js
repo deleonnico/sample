@@ -34,7 +34,7 @@ class LoginForm extends Component {
 
                 <FormGroup className="sign-up">
                     <hr />
-                    <FormText><a href="/">User signup</a></FormText>
+                    <FormText><a href="/UserSignup">User signup</a></FormText>
                     <FormText><a href="/CorporateSignup">Corporate signup</a></FormText>
                 </FormGroup>
             </Form>

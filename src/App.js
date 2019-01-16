@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import MainPage from "./components/Pages/MainPage/MainPage";
+
+import UserSignup from "./components/Pages/UserSignup/UserSignup";
 import CorporateSignup from "./components/Pages/CorporateSignup/CorporateSignup";
 
 import Success from "./components/Pages/Success/Success";
@@ -25,6 +27,8 @@ class App extends Component {
           <BrowserRouter>
             <Switch>
               <Route path="/" exact             component={ MainPage } />
+
+              <Route path="/UserSignup"         component={ UserSignup } />
               <Route path="/CorporateSignup"    component={ CorporateSignup } />
 
               <Route path="/Success"            component={ Success } />
