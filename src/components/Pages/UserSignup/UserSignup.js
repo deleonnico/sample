@@ -61,6 +61,15 @@ class UserSignup extends Component {
                 </div>
 
                 <div>
+                    <FormGroup check>
+                        <Label check>
+                            <Input type="checkbox" />
+                            <FormText color="muted">I have read and agree to the <a href="/TermsAndConditions" target="_blank">Terms of this Service</a> and <a href="/TermsAndConditions" target="_blank">Privacy Policy</a></FormText>
+                        </Label>
+                    </FormGroup>
+                </div>
+
+                <div>
                     <FormText>* Fields required</FormText>
                     <Button className="float-right" color="primary" outline href="/Success">Submit</Button>
                 </div>
